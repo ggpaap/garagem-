@@ -1,0 +1,20 @@
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.3.0",
+]
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "", email = ""},
+]
+dependencies = [
+    "django>=3.2.19",
+]
+requires-python = ">=3.7"
+license = {text = "MIT"}
