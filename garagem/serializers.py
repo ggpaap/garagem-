@@ -1,7 +1,6 @@
 from rest_framework.serializers import ModelSerializer
 
 from garagem.models import Categoria, Acessorio, Cor, Marca, Modelo, Veiculo
-from garagem.serializers import CategoriaSerializer, VeiculoSerializer, AcessorioSerializer, CorSerializer, MarcaSerializer, ModeloSerializer
 
 class CategoriaSerializer(ModelSerializer):
     class Meta:

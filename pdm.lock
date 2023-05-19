@@ -54,6 +54,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "djangorestframework"
+version = "3.14.0"
+requires_python = ">=3.6"
+summary = "Web APIs for Django, made easy."
+dependencies = [
+    "django>=3.0",
+    "pytz",
+]
+
+[[package]]
 name = "importlib-metadata"
 version = "6.6.0"
 requires_python = ">=3.7"
@@ -129,7 +139,7 @@ summary = "Backport of pathlib-compatible object wrapper for zip files"
 lock_version = "4.2"
 cross_platform = true
 groups = ["default", "dev"]
-content_hash = "sha256:cf5c66c2d9390f183338f4d27c9f9382e41a59078b9c4ead37d1957ce252c2a0"
+content_hash = "sha256:9aa28ddde0b3dcc10f98f51ee5e29c2f530a2964dd9e46e24454ebb07e7eeb3b"
 
 [metadata.files]
 "asgiref 3.6.0" = [
@@ -174,6 +184,10 @@ content_hash = "sha256:cf5c66c2d9390f183338f4d27c9f9382e41a59078b9c4ead37d1957ce
 "django 3.2.19" = [
     {url = "https://files.pythonhosted.org/packages/22/af/979a4c610e727cc936c3db3d48cfcb3c270e106ff919f23fc1a27870ba00/Django-3.2.19-py3-none-any.whl", hash = "sha256:21cc991466245d659ab79cb01204f9515690f8dae00e5eabde307f14d24d4d7d"},
     {url = "https://files.pythonhosted.org/packages/e5/a7/cc0b6f97d18a70fd9e026e00a885a9fb995fe2166a56e7784fb361abb027/Django-3.2.19.tar.gz", hash = "sha256:031365bae96814da19c10706218c44dff3b654cc4de20a98bd2d29b9bde469f0"},
+]
+"djangorestframework 3.14.0" = [
+    {url = "https://files.pythonhosted.org/packages/8e/53/5b2a002c5ebafd60dff1e1945a7d63dee40155830997439a9ba324f0fd50/djangorestframework-3.14.0.tar.gz", hash = "sha256:579a333e6256b09489cbe0a067e66abe55c6595d8926be6b99423786334350c8"},
+    {url = "https://files.pythonhosted.org/packages/ff/4b/3b46c0914ba4b7546a758c35fdfa8e7f017fcbe7f23c878239e93623337a/djangorestframework-3.14.0-py3-none-any.whl", hash = "sha256:eb63f58c9f218e1a7d064d17a70751f528ed4e1d35547fdade9aaf4cd103fd08"},
 ]
 "importlib-metadata 6.6.0" = [
     {url = "https://files.pythonhosted.org/packages/0b/1f/9de392c2b939384e08812ef93adf37684ec170b5b6e7ea302d9f163c2ea0/importlib_metadata-6.6.0.tar.gz", hash = "sha256:92501cdf9cc66ebd3e612f1b4f0c0765dfa42f0fa38ffb319b6bd84dd675d705"},
